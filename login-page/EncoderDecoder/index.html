@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Source/EncodeMap.js"></script>
+    <script src="Source/Encoder.js"></script>
+</head>
+<body style="background-color: aliceblue; background-size: cover;">
+    <div>
+    <p style="font-size: 30px;"><b>A message to encode</b> </p>
+    <textarea id="toEncode"></textarea>
+    <br><button onclick="encode()" style=" background-color: rgb(0, 0, 0);">Encode</button>
+    </div>
+    <br><br>
+    <div>
+    <h1>Encoded message</h1>
+    <textarea id="encoded"></textarea><br>
+    <button onclick="decode()" style=" background-color: rgb(0, 0, 0);">Decode</button>
+    <p id="decoded"></p>
+    <div>
+</body>
+</html>
