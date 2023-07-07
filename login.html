@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="CSS/login.css">
+    <style>
+        blink {
+            color: #2d38be;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <center>
+ <div class="login">
+     <img src="./Image/WhatsApp Image 2023-07-07 at 1.54.29 PM.jpeg" alt="img" id="logo">
+     <h1><span id='color'></span>QR Read & Scan</h1>
+     <h4 style="size:10px;">General Usename: test<br>Password: 123</h4>
+
+     <input type="email" placeholder="UserName" id="mail" class="common" required><br>
+     <input type="password" onmouseover="showPass()" onmouseout="hidePass()" placeholder="PassWord" id="password" class="common" required><br>
+     <!--<h5>Choose a Zone:</h5>
+     <select id="zone" name="Zone">
+        <option value="Coimbatore_South">Coimbatore-South</option>
+        <option value="Coimbatore_North">Coimbatore-North</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Madurai">Madurai</option>
+    </select>-->
+     <button class="button" onclick="valiedUser()">login</button>
+ </div>
+ </center>
+ </div>
+ <script src='JS/login.js'></script>
+</body>
+</html>
